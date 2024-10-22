@@ -8,9 +8,9 @@ height = float(input("โปรดกรอกส่วนสูง\n"))
 weight = float(input("โปรดกรอกน้ำหนัก\n"))
 hw = height+weight
 print("ประวัติโดยย่อ")
-print(f'ชื่อ : {name} อายุ : {age}')
-print(f'รหัสประจำตัวนักศึกษา :  {id}ชั้นปี :   {classyear}')
+print(f'ชื่อ : {name} อายุ : {age} ปี')
+print(f'รหัสประจำตัวนักศึกษา :  {id}ชั้นปีที่ :   {classyear}')
 print("ชื่อเล่น : " + nickname)
-print(f'ส่วนสูง :   {str(height)} +น้ำหนัก :   {str(weight)}')
+print(f'ส่วนสูง :   {str(height)} เซนติเมตร น้ำหนัก :   {str(weight)} กิโลกรัม')
 print(f'ส่วนสูง+น้ำหนัก =   {str(hw)}')
 
